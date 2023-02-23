@@ -1,0 +1,10 @@
+name: HideAndSeek
+version: '${project.version}'
+main: plugin.planarg.hideandseek.HideAndSeek
+api-version: 1.19
+authors: [ PlanarG ]
+description: A plugin for hide and seek in Minecraft
+depend: [ ProtocolLib ]
+commands:
+  start:
+    description: start hide and seek game
